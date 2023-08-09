@@ -1,21 +1,24 @@
 package basics;
 
+import basiclibrary.Library;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
         // Invoking Pluralize
-        System.out.println(Pluralize("Dog", 1));
-        System.out.println(Pluralize("Cat", 2));
-        System.out.println(Pluralize("turtle", 0));
+//        System.out.println(Pluralize("Dog", 1));
+//        System.out.println(Pluralize("Cat", 2));
+//        System.out.println(Pluralize("turtle", 0));
 
         // Invoking flipNHeads
-        flipNHeads(1);
+//        flipNHeads(1);
 
         // Invoking clock
-        clock();
+//        clock();
 
 
     }
@@ -69,4 +72,12 @@ public class Main {
         }
     }
 
+    //////
+
+
+
+
 }
+
+
+
